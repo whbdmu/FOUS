@@ -1,0 +1,19 @@
+OUTPUT_DIR: "/home/linfeng/REID/FOUS/run/exp/prw_da"
+INPUT:
+  TDATASET: "CUHK-SYSU"
+  DATASET: "PRW"
+  TDATA_ROOT: "/home/linfeng/Datasets/CUHK-SYSU"
+  DATA_ROOT: "/home/linfeng/Datasets/PRW-v16.04.20"
+  BATCH_SIZE_TRAIN: 4
+SOLVER:
+  MAX_EPOCHS: 16
+  BASE_LR: 0.0024
+  LW_BOX_REID_T: 0.5
+MODEL:
+  LOSS:
+    LUT_SIZE: 482
+    CQ_SIZE: 500
+EVAL_PERIOD: 1
+TARGET_REID_START: 4
+EPS_P: 0.95
+HM_THRESH: 0.3
