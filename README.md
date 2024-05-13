@@ -1,7 +1,7 @@
 # Fast One-Stage Unsupervised Domain Adaptive Person Search
 
 ### [Paper](https://arxiv.org/abs/2405.02832) 
-This is the official implementation for our paper Fast One-Stage Unsupervised Domain Adaptive Person Search (FOUS) in IJCAI2024 by Tianxiang Cui, Huibing Wang (corresponding author: huibing.wang@dlmu.edu.cn)
+This is the official implementation for our paper Fast One-Stage Unsupervised Domain Adaptive Person Search (FOUS) by Tianxiang Cui, Huibing Wang (corresponding author: huibing.wang@dlmu.edu.cn), Jinjia Peng, Ruoxi Deng, Xianping Fu, Yang Wang. *IJCAI 2024*
 
 ## Introduction
 
