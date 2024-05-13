@@ -1,7 +1,10 @@
 # Fast One-Stage Unsupervised Domain Adaptive Person Search
 
+### [Paper](https://arxiv.org/abs/2405.02832) 
+This is the official implementation for our paper Fast One-Stage Unsupervised Domain Adaptive Person Search (FOUS) in IJCAI2024 by Tianxiang Cui, Huibing Wang (corresponding author: huibing.wang@dlmu.edu.cn)
+
 ## Introduction
-This is the official implementation for our paper Fast One-Stage Unsupervised Domain Adaptive Person Search (FOUS) in IJCAI2024.
+
 
 Performance :
 we tried some hyper-parameters and got better ReID performance reported in our paper.
@@ -30,10 +33,12 @@ Run `pip install -r requirements.txt` in the root directory of the project.
 If any part of our paper and repository is helpful to your work, please generously cite with:
 
 ```
-@article{cui2024fast,
-  title={Fast One-Stage Unsupervised Domain Adaptive Person Search},
-  author={Cui, Tianxiang and Wang, Huibing and Peng, Jinjia and Deng, Ruoxi and Fu, Xianping and Wang, Yang},
-  journal={arXiv preprint arXiv:2405.02832},
-  year={2024}
+@misc{cui2024fast,
+      title={Fast One-Stage Unsupervised Domain Adaptive Person Search}, 
+      author={Tianxiang Cui and Huibing Wang and Jinjia Peng and Ruoxi Deng and Xianping Fu and Yang Wang},
+      year={2024},
+      eprint={2405.02832},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
