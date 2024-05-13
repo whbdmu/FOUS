@@ -4,7 +4,10 @@
 This is the official implementation for our paper Fast One-Stage Unsupervised Domain Adaptive Person Search (FOUS) by Tianxiang Cui, Huibing Wang (corresponding author: huibing.wang@dlmu.edu.cn), Jinjia Peng, Ruoxi Deng, Xianping Fu, Yang Wang. *IJCAI 2024*
 
 ## Introduction
+In this paper,  we propose a Fast One-stage Unsupervised person Search(FOUS) which complementary integrates domain adaptaion with label adaptaion within an end-to-end manner without iterative clustering. To minimize the domain discrepancy, FOUS introduced an Attention-based Domain Alignment Module (ADAM) which can not only align various domains for both detection and ReID tasks but also construct an attention mechanism to reduce the adverse impacts of low-quality candidates resulting from unsupervised detection. Moreover, to avoid the redundant iterative clustering mode, FOUS adopts a prototype-guided labeling method which minimizes redundant correlation computations for partial samples and assigns noisy coarse label groups efficiently. The coarse label groups will be continuously refined via label-flexible training network with an adaptive selection strategy.
 
+![](image/image3.png )
+<p align="center">Figure 1. Illustration of the proposed StrDiffusion pipeline.</p>
 
 Performance :
 we tried some hyper-parameters and got better ReID performance reported in our paper.
