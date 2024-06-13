@@ -38,30 +38,16 @@ Run `pip install -r requirements.txt` in the root directory of the project.
 PRW as the target domain:
 
 ```
-python train.py --cfg configs/cuhk_sysu_da.yaml --eval --ckpt $MODEL_PATH
+python test.py --cfg configs/cuhk_sysu_da.yaml --eval --ckpt $MODEL_PATH
 ```
 
 CUHK-SYSU as the target domain:
 
 ```
-python train.py --cfg configs/prw_da.yaml --eval --ckpt $MODEL_PATH
+python test.py --cfg configs/prw_da.yaml --eval --ckpt $MODEL_PATH
 ```
 
-## Training
 
-PRW as the target domain:
-
-```
-python train.py --cfg configs/cuhk_sysu_da.yaml
-```
-
-CUHK-SYSU as the target domain:
-
-```
-python train.py --cfg configs/prw_da.yaml
-```
-
-**Note**: At present, our script only supports single GPU training, but distributed training will be also supported in future. By default, the batch size is set to 4, which requires about 27GB of GPU memory. If your GPU cannot provide the required memory, try smaller batch size and learning rate (*performance may degrade*). 
 
 ## Citation
 
