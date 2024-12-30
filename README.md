@@ -9,7 +9,7 @@ Unsupervised person search aims to localize a particular target person from a ga
 
 |  Source   |  Target   | mAP  | Top-1 |                             CKPT                             |
 | :-------: | :-------: | :--: | :---: | :----------------------------------------------------------: |
-|    PRW    | CUHK-SYSU | 78.7 | 80.4  | [ckpt]()|
+|    PRW    | CUHK-SYSU | 78.7 | 80.4  | [ckpt](https://drive.google.com/file/d/16Ce5LOJmQmPnV-XwKdqfnTWrkdSvohYR/view?usp=drive_link)|
 | CUHK-SYSU |    PRW    | 35.4 | 80.8  | [ckpt]()|
 
 ## Installation
