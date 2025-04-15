@@ -15,7 +15,7 @@ we tried some hyper-parameters and got better ReID performance reported in our p
 |  Source   |  Target   | mAP  | Top-1 |                             CKPT                             |
 | :-------: | :-------: | :--: | :---: | :----------------------------------------------------------: |
 |    PRW    | CUHK-SYSU | 78.7 | 80.7  | [ckpt](https://drive.google.com/file/d/1pPAr284Onjl1FsyrVDKwbkhLKg5I-Inm/view?usp=drive_link) |
-| CUHK-SYSU |    PRW    | 35.4 | 80.8  | [ckpt](https://drive.google.com/file/d/1c3WHC6ntSMAVl8Ys35ZTaseZFUII6Yj1/view?usp=drive_link) |
+| CUHK-SYSU |    PRW    | 35.4 | 80.8  | [ckpt](https://drive.google.com/file/d/18kcK-Z3Mo29x2DuvJb6EGWGEqRRgDXo8/view?usp=drive_link) |
 
 
 ## Installation
